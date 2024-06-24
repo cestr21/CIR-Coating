@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIR - Painting Services</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Include Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="Index.html">CIR</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="tel:+18066730923"><i class="fas fa-phone"></i> (806) 673-0923</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="Contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Main Content -->
+  <div class="contact-container">
+    <div class="contact-content">
+      <div class="contact-image">
+        <div class="image-row">
+          <img src="Assets/Images/PorchRed2.JPG" alt="Contact Us Image">
+        </div>
+        <div class="image-row">
+          <img src="Assets/Images/HouseCeiling2.JPG" alt="Contact Us Image">
+        </div>
+        <div class="image-row">
+          <img src="Assets/Images/RoomInside.JPG" alt="Contact Us Image">
+        </div>
+      </div>
+      <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form id="contactForm" target="_blank" action="https://formsubmit.co/martinezaaron78@outlook.com" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name/Nombre Completo</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="preferredContact">Preferred Contact Method</label>
+            <select id="preferredContact" name="preferredContact" required>
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message/Mensaje</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="contact-info">
+          <p>(Se habla Español)</p>
+          <p>Contact: martinezaaron78@outlook.com</p>
+          <p>Based in Amarillo, Texas</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/share/uzePq7ZYcPPzg3qa/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="Contact.js"></script>
+</body>
+</html>
